@@ -6,6 +6,8 @@
 
 Este projeto utiliza o AWS API Gateway, Lambda Functions e SQS para processar e consumir mensagens de forma eficiente.
 
+Não se chega a lugar nenhum sozinho, como apoio e utilizei este video da Fernanda Kipper para entender alguns passos e não ficar tão perdido: [YOUTUBE](https://www.youtube.com/watch?v=RCacN_-MKPc)
+
 ## Processo
 
 ### Recepção e Redirecionamento:

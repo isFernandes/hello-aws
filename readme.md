@@ -42,7 +42,7 @@ Fora a escrita desta documentação, todo o processo durou aproximadamente 7 hor
 
 ## Tecnologias utilizadas:
 #### Api gategway:
-![image](https://github.com/user-attachments/assets/b1f955aa-85a5-4f10-9977-db9130a93fc5)
+![image](https://github.com/user-attachments/assets/e4f49bd1-f627-46ef-bf8c-eae790c4bc72)
 - Realizei seu deploy e pude realizar as chamadas por meio da rota disponivel.
 - Rota POST para o recebimento da mensagem que pode ser qualquer uma dentro de um objeto 'body'
 

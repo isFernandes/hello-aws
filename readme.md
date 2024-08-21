@@ -28,6 +28,11 @@ Para garantir que a Lambda Function consumidora tenha apenas as permissões nece
 
 Os logs gerados pela Lambda Function de consumo são monitorados via CloudWatch para facilitar a análise e depuração. Como apresentado desta etapa de monitoramento, a utilização do python necessita que seja inserido codigos para que os logs sejam apresentados devidamente na plataforma.
 
+### Gastos
+
+Como é algo para apenas praticar, pelo receio de ter gastos, criei um alerto utilizando o Gerenciamento de faturamento e custos, para que assim que qualquer valor fosse gasto, ele me alertasse via email.
+Durante todo o processo de aprendizagem me mantive de olho em seus graficos e dados, para não gastar qualquer valor por alguma falha que eu viesse a causar.
+
 ### Tempo de Configuração
 
 Configuração Inicial: Aproximadamente 1h30 para configurar o ambiente, criar filas e configurar a API Gateway e Lambda Function.
@@ -59,4 +64,8 @@ Fora a escrita desta documentação, todo o processo durou aproximadamente 7 hor
 ![image](https://github.com/user-attachments/assets/8a59cd9a-5fb3-4bf1-bbfa-d07d00e051fc)
 ![image](https://github.com/user-attachments/assets/d31ddc85-13b4-4799-af9b-6899a33a257c)
 - Apesar de diferentes das cargas do GCP, o cloudWatch me pareceu mais intuitivo a primeiro momento, pelo menos para o entendimento de logs
-- Python não consegue logar utilizando simplesmente o print, foi necessário configurar o permissionamento com a biblioteca logging 
+- Python não consegue logar utilizando simplesmente o print, foi necessário configurar o permissionamento com a biblioteca logging
+
+#### Gastos:
+![image](https://github.com/user-attachments/assets/880717f5-284c-404f-8ba5-35524fb3d3f9)
+- Maneira que eu tive para impedir que qualquer falha resultasse em gastos inesperados.

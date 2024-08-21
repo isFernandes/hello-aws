@@ -13,6 +13,7 @@ logger.setLevel("INFO")
 
 def lambda_handler(event, context):
     # Codigo abaixo só é valido caso seja necessario consumir da fila
+
     # Criar um cliente SQS
     # sqs = bto.client("sqs")
 

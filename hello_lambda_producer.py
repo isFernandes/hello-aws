@@ -15,7 +15,7 @@ QUEUE_NAME = "hello-sqs.fifo"
 
 def lambda_handler(evt, ctx):
     logger.info("Iniciando processamento")
-    message_to_sent = json.dumps({"message": evt["body"]["message"]})
+    message_to_sent = json.dumps(evt["body"]["message"])
 
     query_url = f"""https://sqs.{REGION}.amazonaws.com/{ACCOUNT_ID}/{QUEUE_NAME}"""
     # Enviando a mensagem para a fila

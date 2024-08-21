@@ -47,7 +47,7 @@ def lambda_handler(event, context):
 
     if "Records" in event:
         logger.info(event["Records"])
-        message = json.loads(event["Records"][0]["Body"])
+        message = json.loads(event["Records"][0]["body"])
         logger.info(f"""Mensagem recebida: {message}""")
 
     return {
